@@ -1,0 +1,92 @@
+@ Jubayer Bin Jaman
+
+Programming is a set of instructions in a language the computer understands, to perform a specific function.
+Python was released in 1991.
+
+>>  1. Run using python shell
+    2. Run python directly from command line/terminal
+
+>>  VS Code features include an auto-completion feature, code syntax and highlighting and whitespace and indentation helpers.
+VS Code features include debugging, code syntax and highlighting and whitespace and indentation helpers.
+
+>> Any amount of whitespace or indentations on a line is fine, but keep in mind that if you are combining it with additional lines, then you will need to give clear indicators of where a new line has occurred.
+
+>x = 1    +          2
+
+#output: 3
+
+>y = 1    +    2  \
+      + 3
+
+#output: 6
+
+>def say_hello():
+    print("Hello there!")
+
+print(say_hello())
+
+#output: Hello there!
+
+>def say_hello(): print("Hello there!")
+
+#output: Hello there!
+
+>> use whitespace and indentation correctly
+>> Read and output when encounter an error
+
+>> Commenting code:
+
+Adding comments to code not only helps you as a developer but also helps other members of your team. Comments are great for refreshing your memory of code you may have written months ago and you may have forgotten what it was intended to do. There are multiple reasons why you need to add comments to a code file. They can range from the following:
+-Explaining what the code is intended to do.
+-Let developers know that code is deprecated.
+-Add TODO comments for work to be completed at a later time.
+
+Single line comments: 
+#I'm comment
+x=10
+Multi line comments:
+# The function below accepts two integers and
+# adds both numbers to return the value.
+def add_two_numbers(a, b):
+    return a + b
+Inline comments:
+x=1 #I'm also comment
+The  #  symbol tells Python to ignore everything after this point until the end of the current line, this allows the placement of comments within the code itself. Inline comments should be used to supply important information about the code they deal with.
+
+>> Like with any programming language, the naming convention you choose for variables is important when using Python.Meaningful names can help other developers to avoid guesswork and understand variable references more readily.Descriptive names can help you to recall variable references quickly.A generic label gives no information about a variable or the context in which it's used.
+
+>> Python data types : 
+-Numeric(Integer,Float,Complex Number),
+-Sequence(Strings,List,Tuples)
+-Dictionary
+-Boolean
+-Set
+
+>> String - a sequence of characters in single or double quotes. Concatenation is the joining of two separate strings.
+
+>> Data types: 
+- string / text / 'hello'
+- integer / numbers / 4,5,48,-67,-4
+- float / decimals / 2.5,56.7,3.00
+
+>> Flow Control:
+- == / equals / a==b
+- != / not equal / a!=b
+- < / less than / a<b 
+- > / greater than / a>b
+- <= / less than or equal to / a<=b
+- >= / greater than or equal to / a>=be
+
+>> Build in function
+- print() :This function looks for the default output device, your terminal, and displays the value passed to it.
+- input() :This function looks for the default input device, your keyboard, and captures the value. This value can then be assigned or used.
+- len() :This function returns the length or the count of the elements contained within the structure it is applied on. This may be a string, array, list, tuple, dictionary or any sequence.
+- str() :This function can be used to convert the provided value into a String
+- int() :This function can be used to convert the provided value into an int
+- float() :This function can be used to convert the provided value into a float
+
+>> creating Functions
+- Functions in Python require a keyword to define them : def   followed by an identifier (a name) this forms the function signature. The body of the function contains the code to run when the function is called.
+
+>> Type casting
+-
