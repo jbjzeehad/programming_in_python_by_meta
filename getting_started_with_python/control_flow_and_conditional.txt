@@ -1,0 +1,67 @@
+@ Jubayer Bin Jaman
+
+>> Math operators : 
+- Addition +
+- Subtraction -
+- Division /
+- Multiplication *
+
+>> Logical operators :
+- and : checks for both conditions to be true
+- or : checks for at least one conditions to be true
+- not : returns false if the result is true
+
+>> Conditional flow controls : 
+- if statements 
+- else statements
+- elif (else if) statements
+
+>> Loops :
+- for loop
+- while loop
+
+>> if example: 
+
+#Light is currently off
+current = False
+if current:
+    current = False
+    print('Turning light off')
+if not current:
+    current = True
+    print('Turning light on') #output: Turning light on 
+
+>> if else example:
+
+current = False
+if current:
+    current = False
+    print('Turning light off')
+else: 
+    current = True
+    print('Turning light on') #output: Turning light on
+
+>> elif example:
+
+loyalty_customer = True
+total_bill = 124
+if loyalty_customer and total_bill > 100:
+    #give 20% discount
+    total_bill = total_bill - (float(total_bill)/ 100) * 20
+elif total_bill > 100:
+    #give 10% discount
+    total_bill = total_bill - (float(total_bill)/ 100) * 10
+else:
+    #sorry no discount, 5% service charge applied.
+    print('Sorry, no discount ...')
+print('Total Bill: ', float(total_bill))
+
+#output: Total Bill: 99.2
+
+>> **new - Match Statement : (Switch)
+- A match Statement compares a value to several different  conditions until one is met.
+
+
+>> Loops : Looping is used to iterate through the sequence and access each item inside the sequence.
+
+**new -  enumerate() function

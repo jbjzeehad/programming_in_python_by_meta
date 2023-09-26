@@ -89,4 +89,35 @@ The  #  symbol tells Python to ignore everything after this point until the end 
 - Functions in Python require a keyword to define them : def   followed by an identifier (a name) this forms the function signature. The body of the function contains the code to run when the function is called.
 
 >> Type casting
--
+- There are some scenarios in which a given value's data type needs to be changed to some other data type.
+This process is known as type casting.
+Another, more informal way to refer to it is "data type conversion".
+
+print(10 == 10)
+
+In the above piece of code, I'm asking Python if the number 10 is equal to the number 10, and I'll get the boolean value of True printed, confirming that indeed, they are the same.
+
+print(10 == 10.00)
+
+Again, the boolean value of True is output on the screen.
+Now, you might complain that, well, 10 is not technically equal to 10.0 - because, one might argue, the first number is an integer, and the second number is a float. You would be right - although these are the same numbers, they are not the same data types.
+However, Python here perfoms what's known as "implicit type conversion".
+
+print(10 + 10.0)
+
+The printed result is 20.0.
+
+This output allows me to conclude that when Python runs operations involving integers and floats, it implicitly converts the integers type to a float, and then completes the operation.
+
+everything that a user types in, is converted, by Python, to the string data type.
+
+user_num_1 = "5"
+user_num_2 = "5"
+user_sum = user_num_1 + user_num_2
+print(user_sum)
+
+This time, the output of printing user_sum is still "55", but this comes at no surprise.
+In order to have my Python code work as I intended, I need to perform "explicit type conversion".
+
+we cannot concatenate a string and a float like that. In other words, although Python's implicit type conversion works when I use the + operator on strings and integers, it does not work on strings and floats.
+In Python, it's easy to perform explicit conversions, and sometimes they are very useful.
