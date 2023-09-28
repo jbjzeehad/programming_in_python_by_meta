@@ -65,3 +65,47 @@ print('Total Bill: ', float(total_bill))
 >> Loops : Looping is used to iterate through the sequence and access each item inside the sequence.
 
 **new -  enumerate() function
+
+>> for loop : Looping through data is a fairly common task in any programming language. The for loop makes it easy to work with any type of sequence in Python.
+
+favorites = ['Creme Brulee', 'Apple Pie', 'Churros', 'Tiramisú', 'Chocolate Cake']
+
+for dessert in favorites:
+    print('One of my favorite desserts is', dessert)
+
+>> while loop :  while loop is based upon a condition being true. Once the condition is no longer true the loop stops. The amount of times the while loop is executed is not known ahead of time as it is with the for loop.
+
+favorites = ['Creme Brulee', 'Apple Pie', 'Churros', 'Tiramisú', 'Chocolate Cake']
+count = 0
+while count < len(favorites):
+    print('One of my favorite desserts is', favorites[count]);
+    count += 1
+
+>> controlling loops : you have only looped over sequences based on the length of the data you wanted to iterate over. In many cases, this is not necessary and depending on the amount of the data it can also be quite costly. You'll now examine how you can control the flow of the loop and exit out when a specific condition is met. You will also look at control statements such as break, continue and pass.
+
+In many cases, you may need to search for a particular item in a list. Once the item is found, there is no need to continue looping over the other results.
+
+#Starter Code
+favorites = ['Creme Brulee', 'Apple Pie', 'Churros', 'Tiramisú', 'Chocolate Cake']
+
+for dessert in favorites:
+    if dessert == 'Pudding':
+        print('Yes one of my favorite desserts is', dessert) 
+else:
+    print('No sorry, that dessert is not on my list')
+
+>> Break : The break statement is used to stop the loop, which in turn also stops the else condition. Without the break the loop will continue even after the if condition is satisfied.
+
+>> Continue : Similar to break, continue can be used to control the iteration of the loop. The key difference is that it can allow you to skip over a section of the loop but then continue on with the rest.
+
+>> **new Pass : The pass statement allows you to run through the loop in its entirety and effectively ignore that the if condition has been satisfied.
+
+#Starter Code
+favorites = ['Creme Brulee', 'Apple Pie', 'Churros', 'Tiramisú', 'Chocolate Cake']
+
+for dessert in favorites:
+    if dessert == 'Churros':
+        pass
+    print('Other desserts I like are', dessert) 
+
+>> Python for loops work on any type of sequence data type including strings.An enumerate function is used to provide the index of current iteration of a for loop.A break statement is used to exit out of a for loop based on a certain condition being satisified.
