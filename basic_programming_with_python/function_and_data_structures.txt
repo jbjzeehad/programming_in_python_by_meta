@@ -79,3 +79,8 @@ Each data structure can be designed to solve a particular problem or optimize a 
 Data Structures can be mutable or immutable.Mutability refers to data inside the data structure that can be modified. means we an either change, update, or delete the data when needed. exm: List
 
 The opposite of mutable is immutable. An immutable data structure will not allow modification once the data has been set. exm: Tuple
+
+>> The append function appends a single item without having to specify the index.The insert function is used to insert an item within an existing list at a specified index.
+A tuple can accept any mix of data types.
+Sets do not accept duplicate values. set is not a sequence.
+Each item in the dictionary is a value within a key-value pairing.
