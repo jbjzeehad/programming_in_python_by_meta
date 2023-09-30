@@ -34,3 +34,27 @@ try:
         print(file.read())
 except:
     print("Unable to locate file")  
+
+>> Files used to permanently store data so it is available for future use or as a parmanent record. 
+
+The open function is a versatile method that is used for file handling in Python
+It can also accept two arguments: the file name or file location and the mode, and you can use it with the statement in the open function so that the file is automatically closed for you.
+The open function can also be used in three modes: reading, writing or creating files, and the open function can accept two arguments: the file name or file location, and the mode.
+
+To write multiple lines of content you use the writelines() function. You use the write() function to add one line of content and the open() function to create, write or read a file.
+The Read method returns the entire contents of the file as a string that will contain all the characters.The Readlines method reads the entire contents of the file and then returns it in an ordered list. This is useful because it allows you to iterate over the list or pick out specific lines based on a condition.
+
+>> Storing file contents in data structures: 
+
+f = open("petnames.txt", "r")
+
+The open() function reads in a file outside of the program itself.The open() function accepts two parameters:
+
+1.The path and the filename in the form of a string.
+2.The import mode (the default being "r" - which means "read")
+
+In the line above, I am importing the file at the root of the project. I am only specifying the filename, without the path. I I am also using the default "r" mode to read in the file. I am saving the imported file into a variable named f.
+Next, I'm going to add another variable, f_content, and I'm assigning to it the result of reading the f file.
+On the third line, I'm printing the f_content variable.
+
+>> open() function both reading and writing of files. readline() Readline allows the reading of a single line of a file.By default the file is opened in read mode.Both write and append mode serve different usecases!. Write mode overwrites the existing data. Append mode adds new data to the existing file.The FileNotFoundError is returned when a file cannot be found.
