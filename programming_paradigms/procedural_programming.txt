@@ -1,0 +1,15 @@
+@ Jubayer Bin Jaman 
+
+>> Python allows for procedural, object oriented and functional programming paradigms.Working within a paradigm helps you to write code that is easy to update and create new functionality. You will likely use a combined approach that relies on procedural, object oriented and functional programming paradigms. Working with a certain approach in mind can help you write code that is easy to update and create new functionality.Most programming requires more than one approach.
+
+D   Don't
+R   Repeat
+Y   Yourself
+
+create functions that can be reused.
+
+>> procedural programming : 
+    - easy to learn,reusable,easy to understand.
+    - hard to maintain,doesn't relate well,exposed data.
+
+>> Algorithms : Algorithms are very useful in programming.An algorithm solves both small and complex problems by executing the same steps each time.An algorithm is a series of steps to solve a problem.Once created the steps of an algorithm are the same every time.
