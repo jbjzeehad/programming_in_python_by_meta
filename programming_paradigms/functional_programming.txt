@@ -1,0 +1,13 @@
+>> Function
+- Traditional function
+- Pure function
+
+Functional programming uses pure functions. Functional programming does not change the data outside the scope of the function.Functional programs using reusable functions are quick to use and easy to maintain. Functional programming does not change the data outside the scope of the function. This simply means that the function should avoid modifying the input data or arguments being passed. Instead, it should only return the completed result of the intended function being called.
+Functional programming utilizes reusable functions for clean and elegant code.A pure function is used in functional programming because it does not change or have any effect on a variable, data, list, or set beyond its own scope.
+
+>> Recursions
+Generation of sequences can be easier to understand than nested loops.It is easier to create a sequence with a recursion than with nested loops.Complex tasks can be broken down into easier-to-read sub-problems.Recursive code is especially good for working on things that have many possible branches and are too complex for an iterative approach.Recursive code can make your code neater and less bulky.
+
+>> Reversing a string in Python:
+- using slice function
+- recursion
